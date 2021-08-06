@@ -38,9 +38,11 @@
     justify-content: center;
     align-items: center;
 }
-.news__item__half .img__news__box {
+@media screen and (min-device-width: 700px) and (max-device-width: 2000px) { 
+    .news__item__half .img__news__box {
     background-color: #ececee;
-    width: 400px;
+    width: 400px !important;
     height: 262px;
     overflow: hidden;
+}
 }
